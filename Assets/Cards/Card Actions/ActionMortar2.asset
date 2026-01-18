@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff144c9bad1bf24ca014dc3708dd5e5, type: 3}
+  m_Name: ActionMortar2
+  m_EditorClassIdentifier: Assembly-CSharp::CardAction_Mortar
+  ActionSound: {fileID: 8300000, guid: fdb2e2cc43d752b4a872efba25bff79d, type: 3}
+  damage: 2
+  effectDamage: {fileID: 21300000, guid: 8c3bd25ca9d427940993098795f8419a, type: 3}
+  effectDamageOff: {x: 50, y: 75}
+  effectLeft: {fileID: 21300000, guid: 6be7e7f4e73c3574c9b44da1a5a7246d, type: 3}
+  effectLeftOff: {x: -100, y: 0}
+  effectRight: {fileID: 21300000, guid: 74d6748b01d31124f9414a6f005dedb6, type: 3}
+  effectRightOff: {x: 100, y: 0}

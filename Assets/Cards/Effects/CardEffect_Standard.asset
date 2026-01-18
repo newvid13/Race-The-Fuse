@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea558ce2c587d7478ae7785f3c406fe, type: 3}
+  m_Name: CardEffect_Standard
+  m_EditorClassIdentifier: Assembly-CSharp::CardEffects
+  rotationSpeed: 4
+  mouseRotationMulti: {x: 0.1, y: -0.3}
+  autoRotationMulti: {x: 10, y: 10}
+  attackDistance: 30
+  attackDuration: 0.3
+  dieDuration: 1
+  damagedTextScale: {x: 1.7, y: 1.7, z: 1.7}
+  clipTurn: {fileID: 8300000, guid: 6cf522885c31d574eb2560719ff385f8, type: 3}
+  clipMove: {fileID: 8300000, guid: 0ed0fcf24f2d25a48b044cd9c020b096, type: 3}
+  clipAttack: {fileID: 8300000, guid: fdb2e2cc43d752b4a872efba25bff79d, type: 3}
+  clipDie: {fileID: 8300000, guid: dab213c441bb51f46b3d6d61e987476c, type: 3}
+  clipHurt: {fileID: 8300000, guid: 2c5573f274043a745b0290ec5c9d97f8, type: 3}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d362773ee2a3d194fbc01afadd9e4a73, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: Assembly-CSharp::Level
+  levelName: MORTAR INCOMING
+  levelDifficulty: DIFFICULTY - <color="green">EASY</color>
+  levelDescription: introducing another kind of card
+  sceneName: lvl1

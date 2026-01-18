@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f420f20fe8df094c97be31490da00a9, type: 3}
+  m_Name: Enemy_Barricade
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  pickWeight: 5
+  dimensions: {x: 150, y: 234}
+  cardName: BARRICADE
+  frontFace: {fileID: 21300000, guid: 6688c2215581dca4c89c14225828a90b, type: 3}
+  backFace: {fileID: 21300000, guid: 23fe26a589eaf764dbb46b90a50c298f, type: 3}
+  pictureFrame: {fileID: 21300000, guid: 1bef32c9428364345be5e7244a9562a2, type: 3}
+  showAttack: 1
+  attackPosition: {x: -20, y: 20}
+  attack: 0
+  showDefense: 1
+  defensePosition: {x: 20, y: 20}
+  defense: 3
+  showDescription: 0
+  descriptionPosition: {x: 0, y: 0}
+  descriptionText: 
+  action: {fileID: 0}
