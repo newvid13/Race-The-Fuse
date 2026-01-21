@@ -1,7 +1,7 @@
 # Race-The-Fuse
 A short card game
 
-![Screenshot](ReadmeImg.png)
+![Screenshot](rI.png)
 
 ## Play the game
 https://roooge.itch.io/race-the-fuse
