@@ -87,7 +87,6 @@ public class Manager_Turn : MonoBehaviour, IGameManager
         MainManager.Cameras.SwitchCamera(CameraType.Slots, sequencesPause);
         MainManager.Audio.PlaySound(clipStartTurn, 0.4f);
 
-        //await Awaitable.WaitForSecondsAsync(0.3f);
         await Awaitable.WaitForSecondsAsync(sequencesPause);
 
         await TurnBattle();

@@ -32,16 +32,13 @@ public class Manager_Audio : MonoBehaviour, IGameManager
 
     public void StartingMusicPlay()
     {
-        PlayRandomMusic(tokenSource.Token);
+        PlayRandomMusic(tokenSource);
     }
 
-    private async void PlayRandomMusic(CancellationToken ct)
+    private async void PlayRandomMusic(CancellationTokenSource token)
     {
-        if(ct.IsCancellationRequested)
-        {
-            Debug.Log("Exiting");
+        if(token.IsCancellationRequested)
             return;
-        }
 
         //pick track
         int pickedMusicClip = 0;
@@ -72,9 +69,16 @@ public class Manager_Audio : MonoBehaviour, IGameManager
             audMusicOne.DOFade(1f, 3f);
         }
 
-        //wait duration
-        await Awaitable.WaitForSecondsAsync(musicClips[currentMusicClip].length - 5f);
-        PlayRandomMusic(ct);
+        try
+        {
+            await Awaitable.WaitForSecondsAsync(musicClips[currentMusicClip].length - 5f, token.Token);
+            PlayRandomMusic(token);
+        }
+        catch
+        {
+            Debug.Log("Task was cancelled!");
+            return;
+        }
     }
 
     public void StopAllMusic()

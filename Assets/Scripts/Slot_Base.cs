@@ -13,7 +13,6 @@ public class Slot_Base : MonoBehaviour, IPointerUpHandler, IPointerDownHandler, 
     public GameObject myCard;
     public Image highlight;
 
-    //public Action<int, int> actionAmCLicked;
     public event SlotClicked amClicked;
     public event SlotHover amHovered;
     bool isActive;
